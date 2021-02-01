@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Personal Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="C:\Users\Uporabnik\Desktop\portfolio\css\style.css" rel = "stylesheet" type ="text/css">
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script defer src="js/modal.js"></script>
+    <!--Using fonts------------------------------>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section>
+        <!--navigation---->
+        <nav>
+            <!--logo-->
+             <a href="#" class="logo">Matic Horvat</a>
+             <!--menu-->
+             <div id="menubar">
+                 <ul>
+                     <li><a href="#home">Home</a></li>
+                     <li><a href="#about-me">About</a></li>
+                     <li><a href="#button" id="">Contact Me</a></li>
+                 </ul> 
+                </div>
+                 <!--Bars----------------->
+                 <div class="toggle"></div>
+                </nav>
+        <!--text here-------------->
+        <div class="text-container">
+            <p id="home"><Hello</p>
+            <p>I&#8217;M MATIC HORVAT</p>
+            <p>I am a developer in progress <br> </p>
+           <!----- <button class="hire-btn">Hire me</button>--->
+            <button data-modal-target="#modal">Hire Me</button>
+            <div class="modal" id="modal">
+              <div class="modal-header">
+                <div class="title">Why Should You Hire me</div>
+                <button data-close-button class="close-button">&times;</button>
+              </div>
+              <div class="modal-body">
+               oke
+              </div>
+            </div>
+            <div id="overlay"></div>
+            <button onclick="window.open('https://www.dropbox.com/sh/25emv21m8iew7ru/AAAQ_Cb45aheKL7msELBbJqfa?dl=0');" class="hire-btn">Download CV</button>
+            <div class="skills">
+                <h1>My skills</h1>
+                <li>
+                    <h3>javascript</h3><span class="bar"><span class="javascript"></span></span> 
+                </li>
+                <li>
+                    <h3>Html</h3><span class="bar"><span class="html"></span></span> 
+                </li>
+                <li>
+                    <h3>Css</h3><span class="bar"><span class="css"></span></span> 
+                </li>
+        </div>
+    </div>
+
+        <!--model-->
+        <img src="bckvelka.jpg" class="model" alt>
+
+
+
+    </section>
+<!---about section----------->
+<div class="about-container">
+    <!--img------------>
+    <img src="mala.jpg">
+    <!--about text-->
+    <div class="about-text">
+        <p id="about-me">About me</p>
+        <p>Developer</p>
+        <p>Hello my Name is Matic Horvat</p>
+        <p>The feeling you get from creating something from nothing. I enjoy the creative process itself as much as the end result. Each roadblock I run into along the way leads to possibly some initial trepidation, followed by a research and a working solution. Why you should hire me ?I am a fresher, I don’t have any work experience in programming yet, but I strongly believe that I am much more capable in giving significant contribution that will be surely beneficial for the company’s growth point of view. </p>
+        <!--Button------------->
+        <!----<button>Hire me</button>
+        <button onclick="window.open('https://www.dropbox.com/sh/25emv21m8iew7ru/AAAQ_Cb45aheKL7msELBbJqfa?dl=0');" class="hire-btn">Download CV</button>--->
+    </div>
+
+</div>
+
+
+<!--Services----------------------------------------->
+<div class="services">
+    <!--text---------------------------------------->
+    <div class="services-text">
+    <p></p>
+    <p></p>
+    <p></p>
+    </div>
+<!--box------------------->
+<div class="box-container">
+    <!--box1------------------>
+    <div class="box-1">
+        <span></span>
+        <p class="heading">Web designing</p>
+        <p class="details">Web design is important because it impacts how your audience perceives your brand. The impression you make on them can either get them to remain on your page and learn about your business or leave your page and turn to a competitor. A good web design helps you keep your leads on your page.</p>
+        <!-- <button></button>-->
+    </div>
+    <!--box2-------------------->
+    <div class="box-2">
+        <span></span>
+        <p class="heading">Web Development</p>
+        <p class="details">Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. Web developers, or 'devs', do this by using a variety of coding languages.</p>
+         <!--<button></button>-->
+    </div>
+    <!--box3------------------------->
+    <div class="box-3">
+        <span></span>
+        <p class="heading">Web publishing</p>
+        <p class="details">Web publishing, or "online publishing," is the process of publishing content on the Internet. It includes creating and uploading websites, updating webpages, and posting blogs online. The published content may include text, images, videos, and other types of media.</p>
+        <!--<button></button>-->
+    </div>
+
+</div>
+</div>
+
+<!--Contact me---------------->
+<div class="contact-me">
+    <p>If You Have Any Project In Your Mind ?</p>
+    <div id="abc">
+        <!-- Popup Div Starts Here -->
+        <div id="popupContact">
+        <!-- Contact Us Form -->
+        <form action="#" id="form" method="post" name="form">
+        <img id="close" src="zapri.png" onclick ="div_hide()">
+        <h2>Contact me</h2>
+        <hr>
+        <input id="name" name="name" placeholder="Name" type="text">
+        <input id="email" name="email" placeholder="Email" type="text">
+        <textarea id="msg" name="message" placeholder="Message"></textarea>
+        <a href="javascript:%20check_empty()" id="submit">Send</a>
+        </form>
+        </div>
+        <!-- Popup Div Ends Here -->
+        </div>
+        <!-- Display Popup Button -->
+        <button id="popup" onclick="div_show()">Contact Me</button>
+        </body>
+</div>
+<!--Foooter------------------>
+<footer>
+    <p></p>
+    <p></p>
+    <!--Socialna omrežja------------------->
+    <div class="social-icons">
+        <a href="https://www.facebook.com/matic.horvat.35/"target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/matic.horvat/"target="_blank"><i class="fab fa-instagram"></i></a>
+        <!--<a href="">space for linekdin in future</a>---->
+    </div>
+<!--Copyright--------------------------->
+<p class="copyright">Copyright by Matic Horvat.</p>
+
+</footer>
+<!--Attached social bar at side------------------------>
+<div class="a-social-b">
+    <a href="https://www.facebook.com/matic.horvat.35/"target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/matic.horvat/"target="_blank"><i class="fab fa-instagram"></i></a>
+    <!--<a href="">space for linekdin in future</a>---->
+</div>
+<!--Jquery------------------>
+<script type="text/javascript" src="js/JQuery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav').toggleClass('active')
+    })
+})
+</script>
+
+</body>
+</html>
