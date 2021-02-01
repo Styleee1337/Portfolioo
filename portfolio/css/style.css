@@ -633,7 +633,7 @@ color: #000000;
 .bar {
     background: #353b48;
     display: block;
-    height: 2px;
+    height: 5px;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 3px;
     overflow: hidden;
